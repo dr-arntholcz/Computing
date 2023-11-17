@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/css/style.css" type="text/css" />
+  <link rel="shortcut icon" href="/img/logo.jpg" type="image/jpg" />
+  <title>Computing</title>
+</head>
+
+<body class="">
+  <div class="wrapper">
+    <header class="header">
+      <div class="headerBox centr">
+        <a href="/index.html">
+          <div class="logoClass">
+            <img src="./img/logo.jpg" alt="logo" id="logo" />
+            <h2 class="logoName">Computing</h2>
+          </div>
+        </a>
+      </div>
+      <nav class="menuHeigth centr">
+        <ul class="ulMenu">
+          <li class="liMenu">
+            <a class="aMenu" href="index.html">
+              Главная
+            </a>
+          </li>
+          <li class="liMenu">
+            <a class="aMenu" href="soft.html"> Софт </a>
+          </li>
+          <li class="liMenu">
+            <a class="aMenu" href="hard.html"> Железо </a>
+          </li>
+          <li class="liMenu">
+            <a class="aMenu" href="forum.html" style="border: white 1px solid; padding: 10px"> Форум </a>
+          </li>
+          <li class="liMenu">
+            <a class="aMenu" href="info.html"> О нас </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="content centr">
+      <div class="filtr">
+        <form class="form filtr-color" action="" id="data" onsubmit="return false;">
+          <fieldset class="filtr-color groupFiltr">
+            <p class="filtr-color">Тип новостей</p>
+            <br />
+            <p class="filtr-color">
+              <fieldset class="filtr-color groupFiltr groupSoft">
+                <input class="filtr-color form1Radio" id="formR1A1" type="radio" name="answer" value="soft" />
+                <label class="filtr-color" for="formR1A1">Софт<br />
+                  &nbsp;<input type="checkbox" id="chkdsk" name="soft" class="filtr-color checkSoft formCheck"
+                    value="chkdsk" />
+                  <label class="filtr-color checkSoft formCheck" for="chkdsk" name="soft">Chkdsk</label><br />
+                  &nbsp;<input type="checkbox" id="pxe" name="soft" class="filtr-color checkSoft formCheck"
+                    value="pxe" />
+                  <label class="filtr-color checkSoft formCheck" for="pxe" name="soft">PXE</label><br /></label>
+                &nbsp;<input type="checkbox" id="windows7" name="soft" class="filtr-color checkSoft formCheck"
+                  value="win7" />
+                <label class="filtr-color checkSoft formCheck" for="windows7" name="soft">Windows 7</label><br />
+                &nbsp;<input type="checkbox" id="windows10" name="soft" class="filtr-color checkSoft formCheck"
+                  value="win10" />
+                <label class="filtr-color checkSoft formCheck" for="windows10" name="soft">Windows
+                  10</label><br /></label>
+                &nbsp;<input type="checkbox" id="driver" name="soft" class="filtr-color checkSoft formCheck"
+                  value="driver" />
+                <label class="filtr-color checkSoft formCheck" for="driver" name="soft">Драйвер</label><br />
+                &nbsp;<input type="checkbox" id="nvidia" name="soft" class="filtr-color checkSoft formCheck"
+                  value="nvidia" />
+                <label class="filtr-color checkSoft formCheck" for="nvidia" name="soft">Nvidia</label><br /></label>
+              </fieldset>
+              <fieldset class="filtr-color groupFiltr groupHard">
+                <input class="filtr-color form1Radio" id="formR1A2" type="radio" name="answer" value="hard" />
+                <label class="filtr-color" for="formR1A2">Хард<br />
+                  &nbsp;<input type="checkbox" id="cpu" name="hard" class="filtr-color checkHard formCheck"
+                    value="cpu" />
+                  <label class="filtr-color checkHard formCheck" for="cpu" name="hard">ЦП</label><br />
+                  &nbsp;<input type="checkbox" id="ram" name="hard" class="filtr-color checkHard formCheck"
+                    value="ram" />
+                  <label class="filtr-color checkHard formCheck" for="ram" name="hard">ОЗУ</label><br /></label>
+              </fieldset>
+          </fieldset>
+          <button class="resetFind filtr-color button">
+            Сброс фильтров
+          </button>
+          <button id="find" type="submit" form="data" class="filtr-color button">
+            Применить
+          </button>
+          </p>
+        </form>
+      </div>
+      <div class="box">
+        <div class="booox box2">
+          <div class="lable booox">
+            <h1 class="booox">Новости</h1>
+          </div>
+          <div class="booox">
+            <h2 class="booox">Эта страница не знаю когда будет доступна.
+              Вообще для форума нужны БД и авторизация, а я в это ещё
+              не вникал. Заниаюсь пока JS и адаптацией для разных устройств.</h2>
+            <div class="booox">
+              <ul class="container booox">
+                <li class="item hard cpu cooler ebobo booox">
+                  <div class="cardBox booox">
+                    <a class="booox" href="./cooler1.html">
+                      <h3 class="cardTitle booox">Удивительное крепление кулера</h3>
+                      <img class="cardImage" src="./img/hard/horror-your-pc/kuler2.jpg" alt="kuler1" />
+                      <p class="description booox">
+                        Принесли в сервис комп с комментарием: "не включается".
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="item notebook hard booox">
+                  <div class="cardBox booox">
+                    <a class="booox" href="./electric-stove.html">
+                      <h3 class="cardTitle booox">Подогрели ноутбук</h3>
+                      <img class="cardImage" src="./img/hard/horror-your-pc/plita.jpg" alt="kuler2" />
+                      <p class="description booox">
+                        Принесли ноут IP "настроить". Смотрю, а он такой
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="item hard ram ebobo booox">
+                  <div class="cardBox booox">
+                    <a class="booox" href="./ram.html">
+                      <h3 class="cardTitle booox">ОЗУ пивасиком "угостили"</h3>
+                      <img class="cardImage" src="./img/hard/horror-your-pc/beer.jpg" alt="beer" />
+                      <p class="description booox">Комп не включается</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="item hard cpu ebobo booox">
+                  <div class="cardBox booox">
+                    <a class="booox" href="./socket.html">
+                      <h3 class="cardTitle  booox">Удивительное питание ЦП</h3>
+                      <img class="cardImage" src="./img/hard/horror-your-pc/gnezdo.jpg" alt="beer" />
+                      <p class="description booox">
+                        Принесли в сервис комп с комментарием: "не включается".
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="item notebook hard booox">
+                  <div class="cardBox booox">
+                    <a class="booox" href="./electric-stove.html">
+                      <h3 class="cardTitle  booox">Подогрели ноутбук</h3>
+                      <img class="cardImage" src="./img/hard/horror-your-pc/plita.jpg" alt="kuler2" />
+                      <p class="description booox">
+                        Принесли ноут IP "настроить". Смотрю, а он такой
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="item hard ebobo booox">
+                  <div class="cardBox booox">
+                    <a class="booox" href="./ram.html">
+                      <h3 class="cardTitle  booox">ОЗУ пивасиком "угостили"</h3>
+                      <img class="cardImage" src="./img/hard/horror-your-pc/beer.jpg" alt="beer" />
+                      <p class="description booox">Комп не включается</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="item soft win7 booox">
+                  <div class="cardBox booox">
+                    <a class="booox" href="./cooler1.html">
+                      <h3 class="cardTitle  booox">Удивительное "сборка" Windows 7</h3>
+                      <img class="cardImage" src="./img/hard/horror-your-pc/kuler2.jpg" alt="kuler1" />
+                      <p class="description booox">Удивительное "сборка" Windows 7</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="item soft pxe lan booox">
+                  <div class="cardBox booox">
+                    <a class="booox" href="./electric-stove.html">
+                      <h3 class="cardTitle  booox">Осваиваем загрузку по PXE</h3>
+                      <img class="cardImage" src="./img/hard/horror-your-pc/plita.jpg" alt="kuler2" />
+                      <p class="description booox">Осваиваем загрузку по PXE</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="item soft driver win10 booox">
+                  <div class="cardBox booox">
+                    <a class="booox" href="./ram.html">
+                      <h3 class="cardTitle  booox">Драйвер nvidia на Windows 10</h3>
+                      <img class="cardImage" src="./img/hard/horror-your-pc/beer.jpg" alt="beer" />
+                      <p class="description booox">Драйвер nvidia на Windows 10</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="item soft win7 chkdsk booox">
+                  <div class="cardBox booox">
+                    <a class="booox" href="./socket.html">
+                      <h3 class="cardTitle  booox">Восстанавливаем систему chkdsk</h3>
+                      <img class="cardImage" src="./img/hard/horror-your-pc/gnezdo.jpg" alt="beer" />
+                      <p class="description booox">Восстанавливаем систему chkdsk</p>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <ul class="ulFooter1 footerMenu centr">
+        <li class="liFooter1">
+          <span class="textFooter1"> All rights reserved (C) </span>
+        </li>
+        <li class="liFooter1">
+          <span class="textFooter1"> 2004-2023 </span>
+        </li>
+        <li class="liFooter1">
+          <span class="textFooter1"> dr. Arntholcz </span>
+        </li>
+      </ul>
+    </footer>
+  </div>
+  <script src="js/filtr.js" type="text/javascript"></script>
+</body>
+
+</html>
