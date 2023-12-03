@@ -59,7 +59,7 @@
             <h2 class="lable booox">Страшный сон для твоего ПК</h2>
             <div class="booox">
               <ul class="container booox">
-                <li :class="'item booox' + item.classes" v-for="item of listNews" :key="item.id">
+                <li :class = "'item booox'+item.classes" v-for="item of listNews" :key="item.id">
                   <div class="cardBox booox">
                     <a class="booox" :href="item.url">
                       <h3 class="cardTitle booox">
