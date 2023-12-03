@@ -9,7 +9,7 @@ export default createStore({
           description: `Принесли в сервис комп с комментарием: "не включается"`,
           imgPatch: "./img/hard/horror-your-pc/kuler2.jpg",
           url: "./cooler1.html",
-          classes: " hard cpu cooler ebobo"
+          classes: " hard cpu cooler ebobo",
         },
         {
           id: 2,
@@ -17,7 +17,7 @@ export default createStore({
           description: `Принесли ноут IP "настроить". Смотрю, а он такой`,
           imgPatch: "./img/hard/horror-your-pc/plita.jpg",
           url: "./electric-stove.html",
-          classes: " notebook hard"
+          classes: " notebook hard",
         },
         {
           id: 3,
@@ -25,7 +25,7 @@ export default createStore({
           description: `Комп не включается`,
           imgPatch: "./img/hard/horror-your-pc/beer.jpg",
           url: "./ram.html",
-          classes: " hard ram ebobo"
+          classes: " hard ram ebobo",
         },
         {
           id: 4,
@@ -33,7 +33,7 @@ export default createStore({
           description: `Принесли в сервис комп с комментарием: "не включается"`,
           imgPatch: "./img/hard/horror-your-pc/gnezdo.jpg",
           url: "./socket.html",
-          classes: " hard cpu ebobo"
+          classes: " hard cpu ebobo",
         },
         {
           id: 5,
@@ -41,7 +41,7 @@ export default createStore({
           description: `Принесли ноут IP "настроить". Смотрю, а он такой`,
           imgPatch: "./img/hard/horror-your-pc/plita.jpg",
           url: "./electric-stove.html",
-          classes: " notebook hard"
+          classes: " notebook hard",
         },
         {
           id: 6,
@@ -49,7 +49,7 @@ export default createStore({
           description: `Комп не включается`,
           imgPatch: "./img/hard/horror-your-pc/beer.jpg",
           url: "./ram.html",
-          classes: " hard ebobo"
+          classes: " hard ebobo",
         },
         {
           id: 7,
@@ -57,7 +57,7 @@ export default createStore({
           description: `Удивительное "сборка" Windows 7`,
           imgPatch: "./img/hard/horror-your-pc/kuler2.jpg",
           url: "./cooler1.html",
-          classes: " soft win7"
+          classes: " soft win7",
         },
         {
           id: 8,
@@ -65,7 +65,7 @@ export default createStore({
           description: `Осваиваем загрузку по PXE`,
           imgPatch: "./img/hard/horror-your-pc/plita.jpg",
           url: "./electric-stove.html",
-          classes: " soft pxe lan"
+          classes: " soft pxe lan",
         },
         {
           id: 9,
@@ -73,7 +73,7 @@ export default createStore({
           description: `Драйвер nvidia на Windows 10`,
           imgPatch: "./img/hard/horror-your-pc/beer.jpg",
           url: "./ram.html",
-          classes: " soft driver win10 booox"
+          classes: " soft driver win10 booox",
         },
         {
           id: 10,
@@ -81,7 +81,7 @@ export default createStore({
           description: `Восстанавливаем систему chkdsk`,
           imgPatch: "./img/hard/horror-your-pc/gnezdo.jpg",
           url: "./socket.html",
-          classes: " soft win7 chkdsk"
+          classes: " soft win7 chkdsk",
         }
       ]
   },
